@@ -1,25 +1,85 @@
 body {
-  font-family: Arial;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: #f1f5f9;
+  background: #F1F5F9;
 }
 
-header {
-  background: #0f172a;
+.topo {
+  background: #0F172A;
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
 
-input {
-  width: 90%;
+.topo input {
+  width: 95%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px;
+}
+
+.categorias {
+  display: flex;
+  overflow-x: auto;
   padding: 10px;
-  margin-top: 10px;
+  gap: 10px;
+}
+
+.categorias button {
+  background: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.empresas {
+  padding: 10px;
 }
 
 .card {
   background: white;
   padding: 15px;
-  margin: 10px;
-  border-radius: 10px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn {
+  display: block;
+  margin-top: 10px;
+  background: #25D366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.destaque {
+  border: 2px solid gold;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background: gold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }
