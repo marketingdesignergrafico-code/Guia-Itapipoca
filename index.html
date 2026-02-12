@@ -7,21 +7,36 @@
 
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
-<meta name="theme-color" content="#0f172a">
+<meta name="theme-color" content="#0F172A">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-<header>
+<header class="topo">
   <h1>Guia Itapipoca</h1>
   <input type="text" placeholder="Buscar empresa...">
 </header>
 
-<section class="categoria">
-  <h2>Restaurantes</h2>
+<section class="categorias">
+  <button>🍔 Restaurantes</button>
+  <button>🛍️ Lojas</button>
+  <button>🏥 Clínicas</button>
+  <button>🔧 Serviços</button>
+</section>
+
+<section class="empresas">
   <div class="card">
     <h3>Pizzaria Central</h3>
-    <a href="https://wa.me/5588999999999">WhatsApp</a>
+    <p>A melhor pizza da cidade 🍕</p>
+    <a class="btn" href="https://wa.me/5588999999999">Falar no WhatsApp</a>
+  </div>
+
+  <div class="card destaque">
+    <span class="badge">Destaque</span>
+    <h3>Mercadinho São João</h3>
+    <p>Promoções toda semana 🛒</p>
+    <a class="btn" href="https://wa.me/5588999999999">Falar no WhatsApp</a>
   </div>
 </section>
 
@@ -33,4 +48,3 @@ if ('serviceWorker' in navigator) {
 
 </body>
 </html>
-
